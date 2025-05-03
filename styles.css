@@ -972,3 +972,115 @@ small {
         opacity: 0;
     }
 } */
+ /* Projects Section */
+.projects {
+    background: var(--bg-color);
+}
+
+.projects h2 {
+    margin-bottom: 4rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.project-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+    height: 100%;
+}
+
+.project-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.project-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.project-box h3 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.project-box p {
+    font-size: 1.4rem;
+    margin: 1rem 0 2rem;
+    flex-grow: 1;
+}
+
+.project-box strong {
+    color: var(--main-color);
+}
+
+/* Certifications Section */
+.certifications {
+    background: var(--second-bg-color);
+}
+
+.certifications h2 {
+    margin-bottom: 4rem;
+}
+
+.certifications-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.certification-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color);
+    padding: 3rem 2rem;
+    text-align: center;
+    border: .2rem solid var(--second-bg-color);
+    transition: .5s ease;
+    height: 100%;
+}
+
+.certification-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.certification-box i {
+    font-size: 5rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.certification-box h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.certification-box p {
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+}
+
+.certification-box .btn {
+    margin-top: 1.5rem;
+}
